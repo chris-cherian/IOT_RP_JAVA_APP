@@ -1,22 +1,15 @@
-package com.aryanganotra.parkit.Socket;
+package com.chrischerian.parkit.Socket;
 
-import android.app.Application;
-import android.os.Handler;
-import android.os.Looper;
 import android.util.Log;
 
-import androidx.lifecycle.Observer;
-
-import com.aryanganotra.parkit.Singleton.SingletonClient;
+import com.chrischerian.parkit.Singleton.SingletonClient;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.InetAddress;
 import java.net.Socket;
-import java.util.logging.LogRecord;
 
 public class Client implements Runnable {
     private Socket sock = null;
@@ -65,7 +58,7 @@ public class Client implements Runnable {
                         Log.i("ConnectionStatus",msg);
                             SingletonClient.getInstance().getLicense_num_status().postValue(msg.substring(15));
                     }
-                    if (msg.startsWith("connec")){
+                    if (msg.startsWith("connect")){
                         Log.i("ConnectionStatus",msg);
                             SingletonClient.getInstance().getConnectionStatus().postValue(true);
                     }

@@ -1,4 +1,4 @@
-package com.aryanganotra.parkit.Screens;
+package com.chrischerian.parkit.Screens;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -12,14 +12,10 @@ import android.widget.Chronometer;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.aryanganotra.parkit.Model.Details;
-import com.aryanganotra.parkit.R;
-import com.aryanganotra.parkit.Singleton.SingletonClient;
+import com.chrischerian.parkit.Model.Details;
+import com.chrischerian.parkit.R;
+import com.chrischerian.parkit.Singleton.SingletonClient;
 import com.google.gson.Gson;
-
-import org.json.JSONObject;
-
-import cn.iwgang.countdownview.CountdownView;
 
 public class DetailsActivity extends AppCompatActivity {
 

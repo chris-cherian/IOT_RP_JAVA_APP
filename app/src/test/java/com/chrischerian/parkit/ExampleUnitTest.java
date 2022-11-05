@@ -1,4 +1,4 @@
-package com.aryanganotra.parkit;
+package com.chrischerian.parkit;
 
 import org.junit.Test;
 

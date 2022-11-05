@@ -1,11 +1,9 @@
-package com.aryanganotra.parkit.Singleton;
+package com.chrischerian.parkit.Singleton;
 
-import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
-import androidx.lifecycle.Observer;
 
-import com.aryanganotra.parkit.Model.Details;
-import com.aryanganotra.parkit.Socket.Client;
+import com.chrischerian.parkit.Model.Details;
+import com.chrischerian.parkit.Socket.Client;
 
 public class SingletonClient {
 
@@ -48,7 +46,7 @@ public class SingletonClient {
         return instance;
     }
 
-    private Client client = new Client("192.168.43.244",10000);
+    private Client client = new Client("192.168.42.247",5000);
 
     public  Client getClient(){
         return client;

@@ -1,4 +1,4 @@
-package com.aryanganotra.parkit.Screens;
+package com.chrischerian.parkit.Screens;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,8 +14,8 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.aryanganotra.parkit.R;
-import com.aryanganotra.parkit.Singleton.SingletonClient;
+import com.chrischerian.parkit.R;
+import com.chrischerian.parkit.Singleton.SingletonClient;
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
 

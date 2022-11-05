@@ -1,6 +1,5 @@
-package com.aryanganotra.parkit.Screens;
+package com.chrischerian.parkit.Screens;
 
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Dialog;
@@ -11,11 +10,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.aryanganotra.parkit.R;
-import com.aryanganotra.parkit.Singleton.SingletonClient;
+import com.chrischerian.parkit.R;
+import com.chrischerian.parkit.Singleton.SingletonClient;
 import com.braintreepayments.cardform.view.CardForm;
-
-import org.w3c.dom.Text;
 
 import java.util.concurrent.TimeUnit;
 
@@ -31,7 +28,7 @@ public class PaymentActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_payment);
 
-        Log.i("Timeee", String.valueOf(SingletonClient.getInstance().getDetails().getFinal_time()));
+        Log.i("Time", String.valueOf(SingletonClient.getInstance().getDetails().getFinal_time()));
 
         rec_tv = findViewById(R.id.rec_tv);
         amt_tv = findViewById(R.id.amt_tv);

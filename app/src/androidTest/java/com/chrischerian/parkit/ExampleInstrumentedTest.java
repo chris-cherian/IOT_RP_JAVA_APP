@@ -1,4 +1,4 @@
-package com.aryanganotra.parkit;
+package com.chrischerian.parkit;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.aryanganotra.parkit", appContext.getPackageName());
+        assertEquals("com.chrischerian.parkit", appContext.getPackageName());
     }
 }

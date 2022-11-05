@@ -1,4 +1,4 @@
-package com.aryanganotra.parkit.Model;
+package com.chrischerian.parkit.Model;
 
 public class Details {
 

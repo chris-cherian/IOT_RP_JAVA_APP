@@ -1,11 +1,10 @@
-package com.aryanganotra.parkit.Screens;
+package com.chrischerian.parkit.Screens;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.widget.TextView;
 
-import com.aryanganotra.parkit.R;
+import com.chrischerian.parkit.R;
 
 public class FinalActivity extends AppCompatActivity {
 

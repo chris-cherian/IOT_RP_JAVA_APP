@@ -1,4 +1,4 @@
-package com.aryanganotra.parkit.Adapters;
+package com.chrischerian.parkit.Adapters;
 
 import android.content.Context;
 
@@ -11,8 +11,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.aryanganotra.parkit.Model.Park;
-import com.aryanganotra.parkit.R;
+import com.chrischerian.parkit.Model.Park;
+import com.chrischerian.parkit.R;
 
 import java.util.ArrayList;
 

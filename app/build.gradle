@@ -10,7 +10,7 @@ android {
     compileSdkVersion 28
     buildToolsVersion "29.0.1"
     defaultConfig {
-        applicationId "com.aryanganotra.parkit"
+        applicationId "com.chrischerian.parkit"
         minSdkVersion 24
         targetSdkVersion 28
         versionCode 1

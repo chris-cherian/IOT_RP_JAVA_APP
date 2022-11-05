@@ -1,4 +1,4 @@
-package com.aryanganotra.parkit.Screens;
+package com.chrischerian.parkit.Screens;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,9 +12,9 @@ import android.widget.SearchView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.aryanganotra.parkit.Adapters.Adapter;
-import com.aryanganotra.parkit.Model.Place;
-import com.aryanganotra.parkit.R;
+import com.chrischerian.parkit.Adapters.Adapter;
+import com.chrischerian.parkit.Model.Place;
+import com.chrischerian.parkit.R;
 
 import java.util.ArrayList;
 

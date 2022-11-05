@@ -1,4 +1,4 @@
-package com.aryanganotra.parkit.Adapters;
+package com.chrischerian.parkit.Adapters;
 
 import android.content.Context;
 import android.content.Intent;
@@ -11,9 +11,9 @@ import android.widget.Filter;
 import android.widget.Filterable;
 import android.widget.TextView;
 
-import com.aryanganotra.parkit.Model.Place;
-import com.aryanganotra.parkit.R;
-import com.aryanganotra.parkit.Screens.NumberPlate;
+import com.chrischerian.parkit.Model.Place;
+import com.chrischerian.parkit.R;
+import com.chrischerian.parkit.Screens.NumberPlate;
 
 import java.util.ArrayList;
 

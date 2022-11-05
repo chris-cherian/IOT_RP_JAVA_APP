@@ -1,4 +1,4 @@
-package com.aryanganotra.parkit;
+package com.chrischerian.parkit;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
@@ -10,8 +10,8 @@ import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.aryanganotra.parkit.Screens.ListActivity;
-import com.aryanganotra.parkit.Singleton.SingletonClient;
+import com.chrischerian.parkit.Screens.ListActivity;
+import com.chrischerian.parkit.Singleton.SingletonClient;
 
 public class MainActivity extends AppCompatActivity {
 
